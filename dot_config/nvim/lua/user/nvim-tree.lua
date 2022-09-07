@@ -10,6 +10,8 @@ end
 
 local tree_cb = nvim_tree_config.nvim_tree_callback
 
+local ui = vim.api.nvim_list_uis()[1]
+
 nvim_tree.setup {
   update_focused_file = {
     enable = true,
@@ -54,9 +56,17 @@ nvim_tree.setup {
     },
   },
   view = {
-    width = 30,
-    height = 30,
-    side = "left",
+    float = {
+      enable = true,
+      open_win_config = {
+        relative = "editor",
+        border = "rounded",
+        width = 30,
+        height = 30,
+        row = (ui.height/2)-15,
+        col = (ui.width/2)-15,
+      },
+    },
     mappings = {
       list = {
         { key = { "l", "<CR>", "o" }, cb = tree_cb "edit" },
