@@ -1,0 +1,22 @@
+echo $GITHUB_USERNAME
+nvim ~/.zshenv
+source ~/.zshenv
+echo $GITHUB_USERNAME
+chezmoi init $GITHUB_USERNAME
+chezmoi status
+chezmoi diff
+chezmoi rm ~/.zshrc
+git add .
+git commit -m "rm .zshrc"
+git push origin main
+nvim ~/.gitconfig
+git remote -v
+git remote set-url origin git@github.com:seanschade/dotfiles.git
+git remote -v
+git push origin main
+clear
+chezmoi edit ~/.config/kitty/current-theme.conf
+git add .
+git commit -m "use catppuccin macchiato theme for kitty"
+git push origin main
+exit

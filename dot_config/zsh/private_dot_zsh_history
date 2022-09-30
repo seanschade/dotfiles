@@ -1,0 +1,487 @@
+printenv
+ls
+nvim ~/.config/starship.toml
+which nvm
+which nvim
+ls -a
+ls .cache
+brew doctor
+source ~/.zshrc
+cat ~/.zshrc
+ls ~/iCloud\ Drive\ \(Archive\)
+clear
+ls
+vi ~/.zshenv
+vi ~/.zprofile
+source ~/.zprofile
+brew doctor
+ls ~/.config
+mkdir ~/.config/zsh
+mv ~/.zprofile ~/.config/zsh/.zprofile
+mv ~/.zshrc ~/.config/zsh/.zshrc
+exit
+ls local
+pwd
+chezmoi status
+chezmoi dif
+chezmoi diff
+chezmoi git
+clear
+chezmoi edit ~/.config/nvim/init.lua
+chezmoi help
+chezmoi doctor
+clear
+cd ~/.config/nvim
+ls
+ls
+ls lua
+rm -rf lua
+rm -rf plugin
+ls
+nvim init.lua
+ls
+mkdir -p lua/core
+ls
+nvim
+exit
+brew doctor
+ls
+ls -a
+ls .1password
+ls ~/.kube
+bindkey -l
+rm .zsh_history
+ls .zsh_sessions
+rm -rf .zsh_sessions
+ls ~/.config/zsh
+ls -a ~/.config/zsh
+ls .profile
+cat .profile
+clear
+nvim
+nvim
+ls ~/.config/nvim
+chezmoi status
+chezmoi cd
+exit
+git status
+ls
+cd ~/Projects
+git clone git@github.com:seanschade/dotfiles.git
+cd dotfiles
+ls
+ls dot_config
+rm -rf dot_config/nvim
+git add .
+git commit -m "remove nvim config"
+git push origin main
+cd ..
+rm -rf dotfiles
+clear
+chezmoi cd
+exit
+chezmoi status
+chezmoi list
+chezmoi managed
+chezmoi ignored
+chezmoi verify
+chezmoi doctor
+clear
+ls ~/.config/nvim/
+ls ~/.config/nvim/lua
+ls
+git status
+chezmoi cd
+exit
+ls ~/.config
+cd ~/.config/nvim
+ls
+nvim
+nvim
+nvim
+nvim
+ls
+mkdir spell
+ls
+nvim
+nvim
+cd ..
+ls
+rm -rf nvim
+ls ~/.local/share/nvim/site
+rm -r ~/.local/share/nvim/site/pack
+rm -rf ~/.local/share/nvim/site/pack
+ls ~/.local/share/nvim/site
+git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+nvim +PackerSync
+clear
+nvim
+nvim
+chezmoi status
+chezmoi remove ~/.config/nvim
+chezmoi state
+chezmoi state dump
+clear
+chezmoi diff
+chezmoi ls
+chezmoi list
+chezmoi cd
+exit
+ls ~/.config/nvim/lua
+ls ~/.config/nvim/lua/user
+mkdir ~/.config/nvim/lua/user/default_theme
+exit
+git status
+chezmoi status
+chezmoi apply
+chezmoi status
+exit
+ls
+ls ~/.config/nvim
+ls ~/.config/nvim/lua/
+mkdir ~/.config/nvim/lua/user
+nvim
+nvim
+nvim
+nvim
+cd ~/.config/nvim/lua/user
+nvim
+nvim
+git status
+cd ..
+cd ..
+git status
+git remote -v
+nvim
+nvim
+nvim  --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
+nvim
+cd /usr/local/share
+cd ~/usr/local/share
+ls ~/.local/share/nvim
+cd ~/.local/share/nvim
+git status
+cd ~/.config
+git status
+cd nvim
+git status
+git remote -v
+git remote set-url origin git@github.com:AstroNvim/AstroNvim.git
+chezmoi status
+chezmoi cd
+exit
+ls ~/.local/share/nvim/site
+ls ~/.local/share/nvim/
+rm -rf ~/.local/share/nvim
+exit
+ls
+ls lua/user
+cd lua/user
+git init
+git config --global init.defaultBranch main
+git branch -m main
+exit
+ls ~/.local/share
+ls ~/.local
+ls ~/.local/state
+mkdir ~/.local/share/nvim
+nvim  --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
+git status
+ls
+cd nvim
+git status
+git log
+exit
+ls nvim/lua/user
+cd nvim/lua/user
+git status
+mkdir plugins
+exit
+rm -rf nvim/lua/user/plugins
+exit
+go build
+ls
+cd ..
+ls
+rm -f go.work
+cd 704_binary_search
+go build
+go test
+exit
+cd ~/.config/nvim
+nvim
+nvim
+clear
+nvim  --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
+ls
+nvim config.ld
+rm -rf packer_snapshot
+nvim  --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
+nvim
+cd ..
+ls
+rm -rf nvim
+git clone git@github.com:AstroNvim/AstroNvim.git nvim
+nvim +PackerSync
+ls ~/.local/share
+nvim --version
+cp -r ~/.config/nvim/lua/user_example/ ~/.config/nvim/lua/user/
+nvim  --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
+nvim
+clear
+ls
+ls loca
+ls local
+ls local/share
+ls local/share/nvim
+rm -rf local/share/nvim
+nvim  --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
+nvim
+nvim  --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
+nvim
+nvim
+nvim
+nvim  --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
+nvim
+nvim
+cd ~/Projects/lc/704_binary_search
+nvim
+cd ~/.config/nvim
+ls
+git status
+clear
+ls
+ls lua/user
+brew install exa
+exa
+exa -l
+exa --tree
+clear
+exa --icons
+exa
+exa --tree 
+clear
+exa --tree lua/user
+nvim
+nvim
+exit
+git status
+cd ~/.config/nvim
+nvim
+nvim  --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
+nvim
+cp -r ~/.config/nvim/lua/user_example/ ~/.config/nvim/lua/user/
+nvim  --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
+nvim
+rm -rf ~/.local/share/nvim/site/pack/packer/opt/nvim-colorizer.lua
+nvim
+ls lua/user
+rm -f lua/user/init.vim
+rm -rf ~/.local/share/nvim/site/pack/packer/opt/nvim-colorizer.lua
+nvim
+cp -r ~/.config/nvim/lua/user_example/ ~/.config/nvim/lua/user/
+nvim
+git status
+nvim +PackerSync
+nvim  --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
+nvim
+git status
+ls ~/.local
+ls ~/.local/state
+ls ~/.local/share
+ls ~/.local/share/chezmoi
+ls ~/.local/share/chezmoi/dot_config
+ls ~/.local/share/chezmoi/dot_config/nvim
+ls ~/.local/share/chezmoi/dot_config/nvim/lua
+ls ~/.local/share/chezmoi/dot_config/nvim/lua/user
+rm -rf ~/.local/share/chezmoi/dot_config/nvim
+chezmoi cd
+exit
+ls
+chezmoi cd
+exit
+go test
+exit
+cd ~/.config/nvim/lua/user
+ls
+mkdir -p plugins/dap
+ls
+mkdir plugins/dapui
+exit
+xcode-select --install
+brew search delve
+brew info delve
+brew install delve
+exit
+exit
+mkdir plugins/{go,dap-go,guihua}
+mkdir plugins/catppuccin
+exit
+cd ~.config/nvim
+cd ~/.config/nvim
+ls
+git status
+nvim
+nvim
+cd ~/Projects/lc/704_binary_search
+nvim
+nvim
+cd ~/config/nvim/lua/user
+cd ~/.config/nvim/lua/user
+nvim
+nvim
+nvim
+nvim
+nvim
+cd ~/Projects/lc/704_binary_search
+nvim
+cd ~/.config/nvim/lua/user
+nvim
+nvim
+nvim
+nivm
+nvim
+cd ~/Projects/lc/704_binary_search
+nvim
+cd ~/.config/nvim/lua/user
+nvim
+exit
+brew search drawio
+brew cask install drawio
+brew install --cask drawio
+exit
+go build
+cd lc/704_binary_search
+go build
+go test
+cd lc/704_binary_search
+go build
+go build
+go build
+go test
+go build
+go test
+ls
+mkdir proto
+mv buf.yaml proto
+ls proto
+cd proto
+buf help
+buf beta help
+mkdir -p buftest/ping
+exit
+ls
+mkdir proto/buftest/ping/v1
+mv proto/buftest/ping/ping_service.proto proto/buftest/ping/v1
+ls
+cd proto
+buf beta registry repository create buf.build/seanschade/buftest --visibility public
+exit
+cd proto
+buf push
+buf lint
+exit
+go install github.com/bufbuild/buf-language-server/cmd/bufls@latest\
+
+bufls
+cd proto
+buf lint
+exit
+cd proto
+buf lint
+exit
+cd proto
+buf lint
+exit
+cd proto
+buf lint
+exit
+cd proto
+buf lint
+exit
+buf lint
+buf push
+cd ..
+ls
+go get go.buf.build/grpc/go/seanschade/buftest
+exit
+ls
+go build
+exit
+go build
+go get github.com/seanschade/buftest
+exit
+go build
+go mod tidy
+go get go.buf.build/grpc/go/seanschade/buftest
+cat go.mod
+exit
+buf registry login
+cd Projects
+mkdir buftest
+cd buftest
+buf mod init
+ls
+go mod init github.com/seanschade/buftest
+git init
+gh help
+gh repo help
+gh repo create buftest
+gh repo create buftest --public
+git repo list
+gh repo list
+gh repo help
+rm -rf .git
+gh repo clone seanschade/buftest .
+cd ..
+ls
+rm -rf buftest
+gh repo clone seanschade/buftest 
+cd buftest
+go mod init github.com/seanschade/buftest
+buf mod init
+ls
+nvim
+clear
+ls
+cd proto
+buf lint
+cat buftest/ping/v1/ping_service.proto
+ls
+ls buftest
+ls buftest/ping
+rm -f buftest/ping/ping_service.proto
+nvim
+cd ..
+nvim
+exit
+go get go.buf.build/grpc/go/seanschade/buftest
+git status
+git add .
+git commit -m "initial commit"
+git push origin main
+go build
+go mod tidy
+exit
+clear
+ls
+chezmoi ls
+nvim
+chezmoi diff
+git status
+git add .
+git commit -m "add brew bundle script"
+git push origin main
+nvim
+git status
+gt add .
+git commit -m "remove chezmoi from brew bundle"
+git add .
+git commit -m "remove chezmoi from brew bundle"
+git push origin main
+exit
+chezmoi cd
+exit
+brew list
+brew info 1password
+exit
